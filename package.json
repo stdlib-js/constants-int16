@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-int16",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "16-bit signed integer mathematical constants.",
   "license": "Apache-2.0",
   "author": {
