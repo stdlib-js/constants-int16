@@ -24,32 +24,30 @@ limitations under the License.
 
 > 16-bit signed integer mathematical constants.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-int16
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-constants = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int16@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-int16@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.constants;
-})();
-</script>
+var constants = require( '@stdlib/constants-int16' );
 ```
 
 #### constants
@@ -85,21 +83,11 @@ var c = constants;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-int16@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var constants = require( '@stdlib/constants-int16' );
 
 console.log( objectKeys( constants ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -179,16 +167,17 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/constants-int16/tree/deno
 [umd-url]: https://github.com/stdlib-js/constants-int16/tree/umd
 [esm-url]: https://github.com/stdlib-js/constants-int16/tree/esm
+[branches-url]: https://github.com/stdlib-js/constants-int16/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-int16/main/LICENSE
 
 <!-- <toc-links> -->
 
-[@stdlib/constants/int16/max]: https://github.com/stdlib-js/constants-int16-max/tree/umd
+[@stdlib/constants/int16/max]: https://github.com/stdlib-js/constants-int16-max
 
-[@stdlib/constants/int16/min]: https://github.com/stdlib-js/constants-int16-min/tree/umd
+[@stdlib/constants/int16/min]: https://github.com/stdlib-js/constants-int16-min
 
-[@stdlib/constants/int16/num-bytes]: https://github.com/stdlib-js/constants-int16-num-bytes/tree/umd
+[@stdlib/constants/int16/num-bytes]: https://github.com/stdlib-js/constants-int16-num-bytes
 
 <!-- </toc-links> -->
 
