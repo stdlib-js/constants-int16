@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int16@esm/index.mjs';
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int16@v0.1.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { MAX, MIN, NUM_BYTES } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int16@esm/index.mjs';
+import { MAX, MIN, NUM_BYTES } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int16@v0.1.1-esm/index.mjs';
 ```
 
 #### constants
@@ -91,7 +91,7 @@ var c = constants;
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int16@esm/index.mjs';
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int16@v0.1.1-esm/index.mjs';
 
 console.log( objectKeys( constants ) );
 
